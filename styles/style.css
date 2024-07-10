@@ -223,3 +223,14 @@ color: #ff2c2c;
     padding: 12px;
     color: aliceblue;
 }
+
+
+/* footer-section-styled */
+.footer-section{
+    padding-top:80px ;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 1260px;
+    display: flex;
+    justify-content: space-between;
+}

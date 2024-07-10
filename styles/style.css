@@ -45,7 +45,10 @@
     font-weight: 800;
 
 }
-
+.banner-description{
+    font-size: 16px;
+    color: #383838;
+}
 .contact-btn {
     padding: 16px;
     margin-top: 36px;
@@ -93,6 +96,7 @@
     display: flex;
     justify-content: space-between;
     text-align: left;
+  
 }
 
 .development-content {
@@ -169,6 +173,9 @@
     background-color: rgb(250, 252, 158);
 }
 
+.target-item-description{
+    text-align: justify;
+}
 .learn-more-link {
     margin-top: 10px;
     color: #000;
@@ -179,7 +186,8 @@
 }
 
 .target-title {
-    font-size: 30px;
+    font-size: 36px;
+    font-weight: 800;
 
 }
 

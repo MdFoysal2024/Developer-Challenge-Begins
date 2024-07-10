@@ -1,33 +1,35 @@
-
 /* font style */
 .azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
 /* profile info style */
-.profile-info{
-  display: flex; 
-  justify-content: space-between;
-   padding: 20px 130px;
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 130px;
 
 }
-.profile-name{
+
+.profile-name {
     cursor: pointer;
 }
-.resume-btn{
-   font-size: 16px;
-   font-weight: 600; 
-   padding: 0 16px;
-   border-radius: 10px;
-   cursor: pointer;
+
+.resume-btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 16px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 
 /* banner section style */
-.banner-section{ padding: 50px;
+.banner-section {
+    padding: 50px;
     background-image: url('../assets/images/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,13 +38,15 @@
     text-align: center;
     align-items: center;
 }
-.banner-title{
+
+.banner-title {
     text-align: center;
     font-size: 45px;
     font-weight: 800;
-    
+
 }
-.contact-btn{
+
+.contact-btn {
     padding: 16px;
     margin-top: 36px;
     font-size: 24px;
@@ -51,41 +55,43 @@
     color: aliceblue;
     border-radius: 10px;
     cursor: pointer;
-    
-    
+
+
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     background-color: aliceblue;
     color: #000;
 }
 
 
-.development-container{
-    margin:20px auto;
+.development-container {
+    margin: 20px auto;
     padding: 60px;
     text-align: center;
 }
 
-.development-title{
+.development-title {
     font-size: 36px;
 }
-.development-item1{
+
+.development-item1 {
     padding-top: 50px;
     padding-bottom: 36px;
-    width: 1140px;
+    width: 1260px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     text-align: left;
 }
 
-.development-content{
+.development-content {
     width: 440px;
-   
+
 }
 
-.learn-more{
-    margin-top: 10px ;
+.learn-more {
+    margin-top: 10px;
     padding: 12px 16px;
     border-radius: 5px;
     cursor: pointer;
@@ -93,23 +99,127 @@
     font-weight: 600;
 }
 
-.development-item-title{
+.development-item-title {
     font-size: 30px;
 }
 
-.inspiration-section{
+.inspiration-section {
     margin: 60px auto;
     text-align: center;
 }
 
-.inspiration-title{
+.inspiration-title {
     font-size: 36px;
 }
 
-.inspiration-description{
+.inspiration-description {
     padding-bottom: 20px;
 }
 
-.youtube-video{
-   border-radius: 15px; 
+.youtube-video {
+    border-radius: 15px;
+}
+
+
+
+
+
+
+.target-container {
+    margin: 20px auto;
+    padding: 60px;
+    text-align: center;
+}
+
+.target-item {
+    padding-top: 50px;
+    padding-bottom: 36px;
+    width: 1260px;
+    margin: auto;
+    display: flex;
+    gap: 36px;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+.target-content1 {
+    padding: 50px;
+    background-color: rgb(252, 223, 202);
+}
+
+.target-content2 {
+    padding: 50px;
+    background-color: rgb(209, 217, 253);
+}
+
+.target-content3 {
+    padding: 50px;
+    background-color: rgb(250, 252, 158);
+}
+
+.learn-more-link {
+    margin-top: 10px;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.target-title {
+    font-size: 30px;
+
+}
+
+.target-item {
+    display: flex;
+    text-align: left;
+}
+
+.target-item-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/* support-section-styled */
+.support-section {
+    padding-top: 50px;
+    padding-bottom: 36px;
+    width: 1260px;
+    margin: auto;
+    justify-content: space-between;
+    text-align:center;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(0, 0, 0)), url(../assets/images/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search {
+    width: 360px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 16px;
+    border: none;
+color: #ff2c2c;
+}
+
+.submit{
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 16px;
+    border: none;
+
+}
+.support-title{
+    font-size: 30px;
+    color: aliceblue;
+}
+.support-description{
+    padding: 12px;
+    color: aliceblue;
 }

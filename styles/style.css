@@ -96,3 +96,20 @@
 .development-item-title{
     font-size: 30px;
 }
+
+.inspiration-section{
+    margin: 60px auto;
+    text-align: center;
+}
+
+.inspiration-title{
+    font-size: 36px;
+}
+
+.inspiration-description{
+    padding-bottom: 20px;
+}
+
+.youtube-video{
+   border-radius: 15px; 
+}

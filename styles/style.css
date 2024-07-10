@@ -28,7 +28,7 @@
 
 /* banner section style */
 .banner-section{ padding: 50px;
-    background-image: url('/assets/images/Hero-bg.png');
+    background-image: url('../assets/images/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

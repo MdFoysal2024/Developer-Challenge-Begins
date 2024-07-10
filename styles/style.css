@@ -1,0 +1,55 @@
+
+/* font style */
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* profile info style */
+.profile-info{
+  display: flex; 
+  justify-content: space-between;
+   padding: 20px 130px;
+
+}
+.profile-name{
+    cursor: pointer;
+}
+.resume-btn{
+   font-size: 16px;
+   font-weight: 600; 
+   padding: 0 16px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+
+/* banner section style */
+.banner-section{ padding: 50px;
+    background-image: url('/assets/images/Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.banner-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+.contact-btn{
+    padding: 16px;
+    margin-top: 36px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
